@@ -1,0 +1,25 @@
+.card {
+    margin-bottom: 1rem;
+    background: #060623 !important;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover {
+        border-color: gold !important;
+    }
+}
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.badge-name {
+    background-color: #0a0a2f;
+}
+.icons {
+    width: 32px;
+    height: 32px;
+    background-color: #191933;
+}
+.btn-see-details {
+    margin-left: 10px;
+}

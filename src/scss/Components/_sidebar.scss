@@ -1,0 +1,49 @@
+.css-1dtytz6 {
+    border: none !important;
+}
+.wrapper {
+    align-items: stretch;
+    display: flex;
+    width: 100%;
+}
+.content {
+    flex: 1;
+    max-width: 100vw;
+    padding: 1.5rem 1.5rem 0.75rem;
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #12152d;
+}
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: #343a40;
+}
+
+.sidebar-footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+}
+
+.pro-sidebar {
+    height: 100vh;
+    background-color: #343a40;
+    color: white;
+}
+
+.pro-menu-item {
+    font-size: 1rem;
+    color: white;
+}
+
+.pro-menu-item:hover {
+    background-color: #495057;
+}

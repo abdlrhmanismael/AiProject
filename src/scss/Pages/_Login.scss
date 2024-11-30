@@ -1,0 +1,133 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 2rem;
+    text-align: center;
+
+    .brand-logo {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #5a5a5a;
+        margin-bottom: 1.5rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+        color: #343a40;
+    }
+
+    .review-section {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-bottom: 1.5rem;
+
+        img {
+            width: 30px;
+            height: 30px;
+            margin-bottom: 0.5rem;
+        }
+
+        div {
+            text-align: center;
+
+            span {
+                font-weight: bold;
+                display: block;
+                color: #343a40;
+            }
+
+            p {
+                margin: 0;
+                font-size: 0.85rem;
+                color: #6c757d;
+            }
+        }
+    }
+
+    .btn-google {
+        background-color: #4285f4;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 0.75rem;
+        width: 100%;
+        margin-bottom: 1rem;
+
+        &:hover {
+            background-color: #357ae8;
+        }
+    }
+
+    .btn-facebook {
+        background-color: white;
+        color: #4234df;
+        border: 1px solid #4234df;
+        border-radius: 5px;
+        padding: 0.75rem;
+        width: 100%;
+        margin-bottom: 1rem;
+
+        &:hover {
+            color: white;
+            background-color: #4234df;
+        }
+    }
+
+    .btn-email {
+        border: 1px solid #5a5a5a;
+        background-color: transparent;
+        color: #5a5a5a;
+        border-radius: 5px;
+        padding: 0.75rem;
+        width: 100%;
+        margin-bottom: 1rem;
+
+        &:hover {
+            background-color: #5a5a5a;
+            color: #fff;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: #007bff;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .mt-3 {
+        margin-top: 1rem;
+    }
+
+    p {
+        font-size: 0.85rem;
+        color: #6c757d;
+
+        .text-decoration-none {
+            color: #007bff;
+        }
+    }
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: #6c757d;
+
+    p {
+        margin: 0;
+        font-size: 0.85rem;
+    }
+}
